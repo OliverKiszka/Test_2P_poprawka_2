@@ -11,7 +11,7 @@ public class Runner {
         //nadawanie numeru recznie niemożliwe, bo konstruktor jest protected
         //Kolo koloCreatedByConstructor = new Kolo(5, 4);
 
-        List<Figura> figury = Arrays.asList(Figura.stworzKwadrat(10), Figura.stworzKolo(20), Figura.stworzProstokat(10, 20), Figura.stworzKwadrat(18));
+        List<Figura> figury = Arrays.asList(Figura.stworzKwadrat(10), Figura.stworzKolo(20), Figura.stworzProstokat(10, 20));
         for (Figura f : figury) {
             System.out.println(f);
         }
